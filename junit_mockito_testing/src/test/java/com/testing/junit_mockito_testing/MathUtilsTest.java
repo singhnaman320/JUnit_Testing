@@ -42,6 +42,17 @@ class MathUtilsTest {
 		// 11.0, 2.0 -> 5.5
 		assertEquals(5.5, mUtils.divisionOfDouble(11.0, 2.0));
 		
+		// -10.5, 3.5 -> -3.0
+		assertEquals(-3.0, mUtils.divisionOfDouble(-10.5, 3.5));
+	
+		// -12.0, 6.0 -> -2.0
+		assertEquals(-2.0, mUtils.divisionOfDouble(-12.0, 6.0));
+		
+		// 10.0, 0.0 -> Infinite // because its double
+		assertTrue(Double.valueOf(mUtils.divisionOfDouble(10.0, 0.0)).isInfinite());
+		
+		// 0.0, 0.0 -> NaN // because its double
+		assertTrue(Double.valueOf(mUtils.divisionOfDouble(0.0, 0.0)).isNaN());
 	
 	}
 }
