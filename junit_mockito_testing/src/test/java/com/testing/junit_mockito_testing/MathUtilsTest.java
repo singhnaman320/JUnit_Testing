@@ -31,5 +31,17 @@ class MathUtilsTest {
 		
 	}
 
+	@Test
+	void testDivisionOfDouble() {
+		
+		MathUtils mUtils = new MathUtils();
+		/* Possible test cases */
+		// 10.5, 3.5 -> 3.0
+		assertEquals(3.0, mUtils.divisionOfDouble(10.5, 3.5));
+		
+		// 11.0, 2.0 -> 5.5
+		assertEquals(5.5, mUtils.divisionOfDouble(11.0, 2.0));
+		
 	
+	}
 }
