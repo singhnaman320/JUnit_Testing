@@ -24,6 +24,8 @@ public class AppTest {
 		System.out.println("Inside Before Each");
 	}
 	
+	// NOTE: For test methods : return type is only void, cannot accept any parameter, cannot throw any exception
+	
 	@Test
 	void test() {
 		
