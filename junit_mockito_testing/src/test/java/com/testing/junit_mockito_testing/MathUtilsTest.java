@@ -50,6 +50,8 @@ class MathUtilsTest {
 		
 		// 10.0, 0.0 -> Infinite // because its double
 		assertTrue(Double.valueOf(mUtils.divisionOfDouble(10.0, 0.0)).isInfinite());
+		//OR 
+		//Double.isInfinite(mUtils.divisionOfDouble(10.0, 0.0));
 		
 		// 0.0, 0.0 -> NaN // because its double
 		assertTrue(Double.valueOf(mUtils.divisionOfDouble(0.0, 0.0)).isNaN());
