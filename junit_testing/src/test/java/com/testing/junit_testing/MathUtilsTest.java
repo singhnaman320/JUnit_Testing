@@ -1,8 +1,10 @@
-package com.testing.junit_mockito_testing;
+package com.testing.junit_testing;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
+
+import com.testing.junit_testing.MathUtils;
 
 class MathUtilsTest {
 

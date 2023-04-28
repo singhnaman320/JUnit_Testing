@@ -1,4 +1,4 @@
-package com.testing.junit_mockito_testing;
+package com.testing.junit_testing;
 
 public class MathUtils {
 
