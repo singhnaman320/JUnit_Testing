@@ -55,4 +55,8 @@ class MathUtilsTest {
 		assertTrue(Double.valueOf(mUtils.divisionOfDouble(0.0, 0.0)).isNaN());
 	
 	}
+	
+	// What was alternative before assertThrows?
+	//ExpectedException(AE.class)--->JUnit-4
+	
 }
